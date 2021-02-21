@@ -1,0 +1,102 @@
+body{
+background-color: #AA9D94;
+}
+
+#headerSection{
+  text-align: center;
+  width: 1550px;
+ border-bottom: 5px solid #706053;
+ padding: 10px;
+margin: auto;
+}
+
+h1{
+  color: #ebe0d8;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2{
+  font-family: 'Poppins', sans-serif;
+  color: #ebe0d8;
+  font-size: 20px;
+  text-decoration: underline;
+}
+h3{
+  color:#E7D7CB;
+  font-family: 'Poppins', sans-serif;
+}
+
+.pic1{
+  text-align: center;
+  width: 150px;
+  margin: 30px;
+  padding-left: 255px;
+}
+
+#menu {
+  font-family: 'Poppins' sans-serif;
+width: 150px;
+height: 100%;
+background-color: #c9bbaf;
+position: fixed;
+top: 0px;
+left: 0px;
+padding: 10px;
+}
+
+#waysToHelp{
+  /* width: 1000px;
+  margin: 30px; */
+  float: left;
+  width: 350px;
+  height: 550px;
+  padding: 70px;
+  margin: auto;
+}
+
+#waysToHelp2{
+  float: left;
+  width: 350px;
+  height: 550px;
+  padding: 80px;
+  margin: auto;
+}
+
+p{
+  color: #706053;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+.grid-container {
+  text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+}
+
+
+a:link{
+  display: inline-block;
+  margin: 25px;
+  font-size: 23px;
+  color: green;
+  background-color: transparent;
+  font-family: 'Poppins' sans-serif;
+  color: #B1B1B0;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #706053;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #ebe0d8;
+  background-color: transparent;
+}
+a:active{
+  color: #FCD9DC;
+  background-color: transparent;
+}
